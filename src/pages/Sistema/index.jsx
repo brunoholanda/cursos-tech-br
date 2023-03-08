@@ -8,7 +8,6 @@ export default function Sistema() {
         <section>
             <CabecalhoSistema />
             <Estados />
-
             <Rodape />
         </section>
     )

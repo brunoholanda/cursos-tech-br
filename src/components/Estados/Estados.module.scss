@@ -1,0 +1,100 @@
+.estados {
+
+    margin: 0 3em;
+
+    &__regioes {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__filtros {
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1em;
+
+        h1 {
+            color: var(--cor-texto);
+            font-size: 30px;
+        }
+
+        input {
+            
+        }
+
+        input::placeholder {
+            background-image: url('../../public/icons/lupa.png');
+            background-repeat: no-repeat;
+            background-position: center right;
+            background-size: 19px;
+        }
+    }
+ 
+    h2 {
+        font-size: 20px;
+    }
+
+    &__cards {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+      }
+    
+      &__card {
+        display: flex;
+        margin: .8em .3em 1em .3em;
+        width: 400px;
+        font-weight: 400;
+        justify-content: center;
+        background-color: var(--branco);
+        border-radius: 8px;
+
+       
+         img {
+            width: 150px;
+            height: 100px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 15px 40px -12px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            margin: 1.2em 0 1em 1em;
+        }
+
+        p {
+            margin: 0 0 .8em 1em;
+        
+        }
+  
+            
+        &:hover {
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+          -moz-transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+          transform: scale(1.025);
+          transition: 0.18s;
+          cursor: pointer;
+        }
+}
+
+    &__texto {
+        
+
+
+        img {
+            width: 18px;
+            height: 18px;
+            padding: 0;
+        }
+    }
+
+    &__imagem {
+        margin-top: 1.5em;
+    }
+}

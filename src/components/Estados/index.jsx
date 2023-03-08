@@ -4,6 +4,7 @@ import estados from '../json/estados.json';
 import Cards from './Cards';
 import { useState } from "react";
 import Regioes from "components/Regioes";
+import CampoTexto from "components/CampoTexto";
 
 
 // import { Container } from './styles';
@@ -23,8 +24,16 @@ export default function Estados() {
 
   return (
     <section className={styles.estados}>
-      <h2>New Arrival</h2>
-      <Regioes regioes={regioes} filtrarEstados={filtrarEstados} setItens={setItens} />
+      <div className={styles.estados__filtros}>
+        <h1>Filtre por Região</h1>
+        <CampoTexto 
+          type="search"
+          placeholder="Pesquise"
+        />
+      </div>
+      <div className={styles.estados__regioes}>
+        <Regioes regioes={regioes} filtrarEstados={filtrarEstados} setItens={setItens} />
+      </div>
       <Cards itens={itens} styles={styles} />
       <div className={styles.estados__seta}>
         <h3>Explore More</h3>

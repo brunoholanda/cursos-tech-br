@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styles from './Regioes.module.scss'
-import estados from '../json/estados.json';
 // import { Container } from './styles';
 
 export default function Regioes({regioes, filtrarEstados, setItens}) {
@@ -19,12 +18,6 @@ export default function Regioes({regioes, filtrarEstados, setItens}) {
   return (
     <div className={styles.regioes}>
         <ul className={styles.regioes__lista}>
-        <li 
-          onClick={()=> 
-          setItens(estados)}
-          className={regiaoSelecionada === null ? styles.selecionado : ""}
-        >
-        </li>
            {regioes.map((regiao) => {
               return (
               <li 
