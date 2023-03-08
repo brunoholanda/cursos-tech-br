@@ -1,0 +1,61 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 2em;
+    
+
+    &__formulario {
+
+        h1 {
+            font-size: 40px;
+            color: var(--cor-texto);
+        }
+
+        p {
+            margin: 0;
+        }
+
+        input {
+            margin: 1em 0;
+        }
+
+        label {
+            color: red;
+        }
+    }
+
+    &__botao {
+
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        button {
+            padding: 15px 10px;
+            gap: 10px;
+            border: 1px solid #8F8F8F;
+            border-radius: 5px;
+            width: 395px;
+            height: 60px;
+            margin: 1em 0 .2em 0;
+            background-color: var(--azul);
+            color: var(--branco);
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        button:hover {
+            transform: scale(1.03);
+            transition: 0.2s ease;
+        }
+    }
+
+    &__banner {
+
+        margin-left: 8em;
+        img {
+            width: 80%;
+        }
+    }
+}

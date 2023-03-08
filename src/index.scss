@@ -1,0 +1,26 @@
+:root {
+  --fonte: 'Open Sans', sans-serif;
+  --branco: #ffffff;
+  --preto: #000000;
+  --azul: #2864AE;
+  --cor-texto: #4B6272;
+  --cinza-fundo: #F9F9F9;
+  --cinza-claro: #E3E3E3;
+  --cinza-noticia: #F0F1F4;
+}
+
+
+body {
+  font-family: var(--fonte);
+  background-color: var(--cinza-fundo);
+  margin: 0;
+  padding: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

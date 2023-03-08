@@ -1,0 +1,47 @@
+.noticias {
+
+    color: var(--cor-texto);
+    padding: 1em 3em;
+    margin-bottom: 3em;
+
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    &__conteudo {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        button {
+            background-image: url('../../public/icons/seta.png');
+            background-repeat: no-repeat;
+            background-size: 40px;
+            width: 50px;
+            height: 50px;
+            border: none;
+            background-color: var(--cinza);
+            cursor: pointer;
+        }
+
+        button:nth-child(1) {
+            transform: rotate(180deg);
+        }
+
+        img {
+            margin: 0 .5em;
+        }
+    }
+
+}
+
+.noticias__cards {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.noticias__cards::-webkit-scrollbar {
+    display: none;
+}

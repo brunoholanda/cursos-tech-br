@@ -1,0 +1,96 @@
+.banner {
+    padding: 0;
+    margin: .5em 0 0 0;
+        
+    img {
+        width: 95%; 
+        padding: 0 2em;      
+    }
+
+    &__info {
+        position: absolute;
+        padding: 4em 50em 0 7em;
+        top: 130px;
+
+    h1 {
+       color: var(--branco);
+       font-size: 50px;
+       font-weight: 700;
+    }
+
+    p {
+        color: var(--branco);
+        font-size: 25px;
+        font-weight: 700;
+        position: relative;
+       
+    }
+
+    button {
+        background-color: var(--branco);
+        border-radius: 8px;
+        color: var(--preto);
+        width: 240px;
+        height: 48px;
+        border: none;
+        font-size: 20px;
+    }
+
+    button:hover {
+        background-color: var(--branco);
+        color: var(--roxo);
+        border: 2px solid var(--roxo);
+    }
+}
+}
+
+@media screen and (max-width: 1024px) {
+.banner {
+    &__info {
+        padding: 0em 25em 0 2em;
+        top: 110px;
+
+    h1 {
+       font-size: 35px;
+
+    }
+
+    p {
+        font-size: 18px;
+       
+    }
+
+    button {
+        width: 250px;
+        height: 35px;
+    }
+    }
+}
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+        &__info {
+            padding: 0em 25em 0 2em;
+            top: 120px;
+    
+        h1 {
+           font-size: 20px;
+    
+        }
+    
+        p {
+            font-size: 14px;
+           
+        }
+    
+        button {
+            width: 210px;
+            height: 35px;
+        }
+        }
+    }
+    }
+    
+

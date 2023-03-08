@@ -1,0 +1,31 @@
+.erro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1em 8em;
+    font-family: var(--fonte-principal);
+    padding-bottom: 5em;
+
+    h1 {
+        
+        font-size: 30px;
+    }
+
+    button {
+        background-color: var(--azul);
+        color: var(--branco);
+        font-weight: 700;
+        border: none;
+        width: 250px;
+        height: 45px;
+        border-radius: 8px;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+            cursor: pointer;
+            transition: 0.5s ease;
+    }
+}
+

@@ -1,0 +1,15 @@
+.botao {
+    
+    button {
+        background-color: var(--azul);
+        color: var(--branco);
+        border: none;
+        font-weight: 700;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+}

@@ -1,0 +1,32 @@
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 8em 1em 7em;
+    align-items: center;
+
+    &__links {
+
+        a {
+            text-decoration: none;
+            color: var(--cor-texto);
+            margin: 0 3em;
+            font-size: 20px;
+        }
+
+        a:hover {
+            font-weight: 700;
+            color: var(--azul);
+        }
+    }
+
+    &__botao {
+
+        button {
+            width: 140px;
+            height: 40px;
+            font-size: 20px;
+            border-radius: 6px;
+        }
+    }
+}

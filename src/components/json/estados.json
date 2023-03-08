@@ -1,0 +1,143 @@
+[
+    {
+      "estado": "Acre",
+      "imagem": "/assets/imagens/bandeiras/acre.png",
+      "universisdades": "80",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "1",
+      "regiao": "Norte"
+    },
+    {
+      "estado": "Alagoas",
+      "imagem": "/assets/imagens/bandeiras/alagoas.png",
+      "universisdades": "80",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "2",
+      "regiao": "Nordeste"
+    },
+    {
+      "estado": "Amapa",
+      "imagem": "/assets/imagens/bandeiras/amapa.png",
+      "universisdades": "40",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "3",
+      "regiao": "Norte"
+    },
+    {
+      "estado": "Amazonas",
+      "imagem": "/assets/imagens/bandeiras/amazonas.png",
+      "universisdades": "50",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "4",
+      "regiao": "Norte"
+    },
+    {
+      "estado": "Bahia",
+      "imagem": "/assets/imagens/bandeiras/bahia.png",
+      "universisdades": "80",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "5",
+      "regiao": "Nordeste"
+    },
+    {
+      "estado": "Ceara",
+      "imagem": "/assets/imagens/bandeiras/ceara.png",
+      "universisdades": "80",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "6",
+      "regiao": "Nordeste"
+    },
+    {
+      "estado": "Distrito Federal",
+      "imagem": "/assets/imagens/bandeiras/df.png",
+      "universisdades": "80",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "7",
+      "regiao": "Centro-Oeste"
+    },
+    {
+      "estado": "Espirito Santo",
+      "imagem": "/assets/imagens/bandeiras/espirito-santo.png",
+      "universisdades": "80",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "8",
+      "regiao": "Sudeste"
+    },
+    {
+      "estado": "Goias",
+      "imagem": "/assets/imagens/bandeiras/goias.png",
+      "universisdades": "80",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "9",
+      "regiao": "Centro-Oeste"
+    },
+    {
+      "estado": "Maranhão",
+      "imagem": "/assets/imagens/bandeiras/maranhao.png",
+      "universisdades": "80",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "10",
+      "regiao": "Nordeste"
+    },
+    {
+      "estado": "Mato Grosso",
+      "imagem": "/assets/imagens/bandeiras/mato-grosso.png",
+      "universisdades": "80",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "11",
+      "regiao": "Centro-Oeste"
+    },
+    {
+      "estado": "Minas Gerais",
+      "imagem": "/assets/imagens/bandeiras/minas-gerais.png",
+      "universisdades": "80",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "12",
+      "regiao": "Sudeste"
+    },
+    {
+      "estado": "M. Grosso do sul",
+      "imagem": "/assets/imagens/bandeiras/ms-sul.png",
+      "universisdades": "80",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "13",
+      "regiao": "Centro-Oeste"
+    },
+    {
+      "estado": "M. Grosso do sul",
+      "imagem": "/assets/imagens/bandeiras/ms-sul.png",
+      "universisdades": "80",
+      "avaliacao": "5",
+      "texto": "Localizado na região nordeste do País o Estado do alagoas conta com mais de 80 cursos em tecnologia distribuídos nas cidades de Alagoas, Santa Luzia, Pilar e Belo monte. A seguir confira as universidades:",
+      "instituicoes": "Análise e Desenvolvimento de Sistemas: Instituto Federal de Alagoas (IFAL) - Campus Maceió Gestão da Tecnologia da Informação: Centro Universitário Tiradentes (UNIT) - Campus Maceió",
+      "id": "14",
+      "regiao": "Sul"
+    }
+  ]
+  
