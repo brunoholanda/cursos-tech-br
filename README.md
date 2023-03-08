@@ -1,9 +1,14 @@
-# Segundo Projeto CTD - Desenvolvendo uma pagina para Corretores
-
+# Cursos Tech BR
+Plataforma criada para reunir todos os cursos Superiores de Tecnologia no Brasil 
 # Descrição do Projeto
-:trophy: Projeto desenvolvido para praticar os conhecimentos em REACT, HTML, CSS e JS.
+:trophy: Projeto desenvolvido para ir além na atividade proposta no curso Superior de Analise e Desenvolvimento de sistemas;
 
-:trophy: Funcionalidade para corretores anunciarem os imoveis sob sua gestão para alugar ou vender (Marketplace)
+:trophy: 
+O que foi pedido?<br>
+Imagine que você desenvolverá a página inicial do site de um programa para o Ministério  da Educação. Ele poderá ser acessado tanto na web quanto nos dispositivos móveis. Esse programa fará o mapeamento de faculdades com cursos de tecnologia que existem no Brasil. 
+<br>
+Em vez de imaginar eu fiz a pagina! haha
+<br>
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
 
