@@ -27,11 +27,9 @@ function AppRoutes() {
                     <Route path="*" element={<PaginaDeErro />} />
                 </Route>
                 <Route exact path="/sistema" element={<Private Item={Sistema} />}>
-                <Route path="estado/:id" element={<Estado />} />
                     <Route path="*" element={<PaginaDeErro />} />
-                    
                 </Route>
-               
+                <Route path="estado/:id" element={<Estado />} />
             </Routes>
         </BrowserRouter>
     )

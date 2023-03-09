@@ -8,3 +8,16 @@
     font-weight: 400;
 
 }
+
+@media screen and (max-width: 768px) {
+    .rodape {
+        
+        padding: 1em;
+        p {
+            display: none;
+        }
+        img {
+            width: 80px;
+        }
+    }
+}

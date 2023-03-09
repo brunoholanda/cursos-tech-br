@@ -1,184 +1,93 @@
+.estado {
 
-
-.paginadoproduto {
-    padding: 1em;
-
-    
-    
-
-
-    &__sessao {
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-       align-items: center;
-       justify-content: center;
-       margin: 3em 7em 5em 7em;
-       
+    h2, p {
+        color: var(--cor-texto);
     }
 
-    &__imagem {
-        width: 80%;
-        border-radius: 15px;
-        
+    h2 {
+        font-size: 35px;
     }
 
-    &__texto {
-        display: flex;
-        flex-direction: column;
-       
-       
-        h1 {
-            font-weight: 500;
-            font-size: 52px;
-        }
-        h3 {
-            font-weight: 700;
-            font-size: 16px;
-        }
-        p {
-            font-weight: 400;
-            font-size: 16px;
-        }
-    }
-
-    &__produto {
+    &__sessao {      
         display: grid;
-        grid-template-columns: 1fr 1fr;        
-        margin: 2em 5em 1em 5em;
-        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        margin: 2em 10em 4em 10em;
         
+        img {
+            width: 450px;
+            margin-right: 3em;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 15px 40px -12px;
+            border-radius: 10px;
+        }
     }
 
-    &__tituloSec {
+    &__instituicoes {
             
-            font-size: 32px;
-            font-weight: 700;
-            margin-left: 2em;
-        }
-    
-}
+        margin: 4em 10em 4em 10em;
+    }
 
-.lista {
-    display: flex;
-    grid-template-columns: 16% 16% 16% 16% 16% 16%;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: 0 2em 0 3em;
-    padding: 0;
-    flex-wrap: wrap;
-    
-    
-    
+    &__cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: .5em 8em 1em 8em;
+    }
+
+    &__botao {
+        margin: 1em 10em 0em 10em;
+        padding: 0;
+
+        button {
+            width: 200px;
+            height: 40px;
+            font-size: 20px;
+            border-radius: 6px;
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .paginadoproduto {
-        
-        &__sessao {
-            margin: 1em 1em 1em 1em;
-         }
-     
-         &__imagem {
-             width: 90%;
-             border-radius: 15px;
-             
-         }
-         
-        &__texto {
+    .estado {
+    
+        h2 {
+            font-size: 24px;
+        }
+    
+        &__sessao {      
             display: flex;
             flex-direction: column;
-           
-           
-            h1 {
-                font-size: 30px;
-            }
-            h3 {
-                font-size: 16px;
-            }
-            p {
-                font-size: 14px;
-            }
-        }
-        
-        &__tituloSec {
-            margin-left: 0em;
-        }
-
-    }
-    
-
-    .lista {
-        display: flex;
-        justify-content: center;
-        
-        
-
-        li {
-            margin-right: 0.5em;
-        }
-
-        li:nth-child(n+5):nth-child(-n+6){
-            display: none;
-        }
-        
-    }    
-    
-}
-
-@media screen and (max-width: 360px) {
-    .paginadoproduto {
-
-        &__sessao {
-            margin: 1em 1em 1em 1em;
-            display: flex;
-            flex-direction: column;
-            
-     
-         &__imagem {
-            width: 100%;
-            border-radius: 15px;
             justify-content: center;
-         }
-             
-         }
-         
-        &__texto {
-            display: flex;
-            flex-direction: column;
-           
-           
-            h1 {
-                font-size: 22px;
-                margin-bottom: 0;
-            }
-            h3 {
-                font-size: 16px;
-                margin-bottom: 0;
-            }
-            p {
-                font-size: 14px;
+            align-items: center;
+            margin: 1em;
+            
+            img {
+                width: 300px;
+                margin-right: 0em;
             }
         }
-        
-        &__tituloSec {
-            margin-left: 0em;
-            font-size: 22px;
-        }
-
-    }
     
-    .lista {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-        
-        
-
-        li {
-            margin-right: 0.5em;
+        &__instituicoes {
+                
+            margin: 1em;
         }
-
-      
-    }    
+    
+        &__cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: .5em 8em 1em 8em;
+        }
+    
+        &__botao {
+            margin: 1em 2em;
+            padding: 0;
+    
+            button {
+                width: 120px;
+                height: 30px;
+                font-size: 16px;
+                border-radius: 6px;
+            }
+        }
+    }
 }
-

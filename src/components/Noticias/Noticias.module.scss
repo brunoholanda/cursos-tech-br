@@ -45,3 +45,32 @@
 .noticias__cards::-webkit-scrollbar {
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    .noticias {
+
+        padding: 1em 1em;
+        margin-bottom: 1em;
+
+        h1 {
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        &__conteudo {
+    
+            button {
+                display: none;
+            }
+    
+            img {
+                width: 280px;
+            }
+
+            img:nth-child(1) {
+                display: none;
+            }
+        }
+    
+    }
+}

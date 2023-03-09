@@ -59,3 +59,48 @@
         }
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .login {
+       
+    
+        &__formulario {
+    
+            h1 {
+                font-size: 30px;
+            }
+        
+            input {
+                margin: 1em 0;
+                width: 250px;
+                height: 45px;
+            }
+    
+            label {
+                color: red;
+            }
+        }
+    
+        &__botao {
+    
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+    
+            button {
+                width: 250px;
+                height: 45px;
+                font-size: 18px;
+            }
+    
+            button:hover {
+               display: none;
+            }
+        }
+    
+        &__banner {
+            display: none;
+        }
+    }
+}

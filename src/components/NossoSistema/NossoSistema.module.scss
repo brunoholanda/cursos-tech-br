@@ -13,3 +13,20 @@
         font-size: 26px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .sistema {
+
+        padding: 1em 1em;
+
+        h1 {
+            font-weight: 700;
+            font-size: 20px;
+        }
+    
+        p {
+            font-weight: 400;
+            font-size: 18px;
+        }
+    }
+}

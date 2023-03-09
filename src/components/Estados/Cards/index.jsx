@@ -1,23 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import estrelas from '../../../public/icons/estrela.png'
+import styles from './Cards.module.scss';
 
-export default function Cards({ itens, styles, card }) {
+export default function Cards({ itens }) {
   return (
-    <ul className={styles.estados__cards}>
-      {itens.map((item) => {
-        return (
-          <li key={item.id} className={styles.estados__card}>
-            <img className={styles.estados__imagem} src={item.imagem} alt={item.estado} />
-            <div className={styles.estados__descricao}>
-              <h2 className={styles.estados__texto}>{item.estado}</h2>
-              <p className={styles.estados__texto}>{item.universidades} Universidades</p>
-              <p className={styles.estados__texto}>Nota "{item.avaliacao}" <img src={estrelas} alt="avaliacao das universidades" /></p>
-              <Link to={`/estado/${item.id}`}> <h4>Ver mais</h4></Link>
-            </div>
-          </li>
-        )
-      })}
-    </ul>
+    <div className={styles.card}>
+      <ul className={styles.card__cards}>
+        {itens.map((item) => {
+          return (
+            <Link to={`/estado/${item.id}`}>
+              <li key={item.id} className={styles.card__card}>
+                <div className={styles.card__imagem}>
+                  <img src={item.imagem} alt={item.estado} />
+                </div>
+                <div className={styles.card__descricao}>
+                  <h2 className={styles.card__texto}>{item.estado}</h2>
+                  <p className={styles.card__texto}>{item.universidades} Universidades</p>
+                  <div className={styles.card__avaliacao}>
+                  <p className={styles.card__texto}>Nota {item.avaliacao}</p>
+                  <img src={estrelas} alt="avaliação das universidades" />
+                  </div>
+                </div>
+              </li>
+            </Link>
+          )
+        })}
+      </ul>
+    </div>
   )
 }

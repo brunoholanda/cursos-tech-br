@@ -13,7 +13,7 @@ export default function CabecalhoSistema() {
     return (
         <header className={styles.cabecalho}>
             <div className={styles.cabecalho__logo}>
-                <Link to='./'>
+                <Link to='/sistema'>
                     <img src={logo} alt="logo do cursos tech BR" />
                 </Link>
             </div>

@@ -10,11 +10,13 @@ export default function Banner() {
             <div className={styles.banner__info}>
                 <h1>CursosTechBR</h1>
                 <p>A plataforma desenvolvida para reunir todos os cursos de tecnologia do Brasil</p>
+                <div className={styles.banner__botao}>
                 <Link to="/login">
                 <Botao
                     Text="Entrar"
                 />
                 </Link>
+                </div>
             </div>
         </section>
     )
