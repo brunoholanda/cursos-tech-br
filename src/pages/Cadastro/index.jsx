@@ -67,7 +67,7 @@ function Cadastro() {
                     Text="Cadastrar" onClick={handleSignup}
                 />
                 <p>Ja tem uma conta?</p>
-                <Link to="/">
+                <Link to="/login">
                 <Botao
                     Text="Entre"
                 />

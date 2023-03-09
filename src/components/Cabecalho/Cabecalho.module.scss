@@ -30,3 +30,44 @@
         }
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .cabecalho {
+
+        padding: 1em 1em 1em 1em;
+
+        &__links {
+            display: none;
+        }
+    }
+}
+    
+    
+    @media screen and (max-width: 768px) {
+        .cabecalho {
+
+            padding: 1em;
+
+            &__logo {
+                img {
+                    width: 120px;
+                }
+            }
+    
+            &__links {
+                display: none;
+            }
+
+            &__botao {
+
+                button {
+                    width: 100px;
+                    height: 30px;
+                    font-size: 20px;
+                    border-radius: 6px;
+                }
+            }
+        }
+
+        
+    }

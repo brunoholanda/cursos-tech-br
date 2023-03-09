@@ -21,12 +21,29 @@
     }
 
     &__botao {
-
-        button {
-            width: 140px;
-            height: 40px;
-            font-size: 20px;
-            border-radius: 6px;
-        }
+        cursor: pointer;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho {
+
+        padding: 1em;
+
+        &__logo {
+            img {
+                width: 120px;
+            }
+        }
+
+        &__botao {
+
+            button {
+                width: 100px;
+                height: 30px;
+                font-size: 20px;
+                border-radius: 6px;
+            }
+        }
+    }   
 }

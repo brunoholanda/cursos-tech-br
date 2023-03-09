@@ -55,7 +55,7 @@ const Login = () => {
 
                     <Link to="/cadastro">
                         <Botao
-                            Text="Fazer Cadastrar"
+                            Text="Fazer Cadastro"
                         />
                     </Link>
                 </div>

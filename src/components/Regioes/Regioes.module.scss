@@ -1,13 +1,10 @@
 .regioes {
     
     &__lista {
-
         display: flex;
         flex-direction: row;
         list-style: none;
         padding: 0 1em;
-
-        
 
         li {
             text-align: center;
@@ -28,9 +25,31 @@
             color: var(--azul);
             font-weight: 700;
             
-          }
+          }     
+    }
+}
 
-        
+@media screen and (max-width: 768px) {
+    .regioes {
+    
+        &__lista {
+            display: flex;
+            flex-direction: column;
+    
+            li {
+                text-align: center;
+                padding: .5em 1em;
+                font-family: var(--fonte-principal);
+                color: var(--cor-texto);
+                font-size: 20px;
+                font-weight: 400;
+            }
+    
+            .selecionado {
+                color: var(--azul);
+                font-weight: 700;
+              }     
+        }
     }
 }
 
