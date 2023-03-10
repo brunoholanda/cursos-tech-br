@@ -18,6 +18,8 @@
 
         input {
             margin: 1em 0;
+            width: 395px;
+            height: 60px;
         }
 
         label {
@@ -87,16 +89,13 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-    
+            
             button {
                 width: 250px;
                 height: 45px;
                 font-size: 18px;
             }
     
-            button:hover {
-               display: none;
-            }
         }
     
         &__banner {

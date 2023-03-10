@@ -6,8 +6,6 @@ import { useState } from "react";
 import Regioes from "components/Regioes";
 import CampoTexto from "components/CampoTexto";
 import Botao from "components/Botao";
-
-
 // import { Container } from './styles';
 
 export default function Estados() {
@@ -55,5 +53,4 @@ export default function Estados() {
       </div>
     </section>
   )
-
 }

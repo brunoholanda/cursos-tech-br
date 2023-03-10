@@ -1,23 +1,21 @@
 .campotexto {
 
-        input {
-            box-sizing: border-box;
-            width: 395px;
-            height: 60px;
-            align-items: center;
-            padding: 15px 10px;
-            gap: 10px;
-            border: none;
-            border-radius: 5px;
-            background-color: var(--cinza-claro);
-        }
-
-        input::placeholder {
-            color: var(--azul);
-            padding-left: 1em;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 22px;
-        }
-
+    input {
+        box-sizing: border-box;
+        align-items: center;
+        padding: 15px 10px;
+        gap: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--cinza-claro);
     }
+
+    input::placeholder {
+        color: var(--azul);
+        padding-left: 1em;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+}

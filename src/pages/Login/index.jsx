@@ -33,7 +33,7 @@ const Login = () => {
     return (
         <section className={styles.login}>
             <div className={styles.login__formulario}>
-            <h1>LOGIN</h1>
+                <h1>LOGIN</h1>
                 <CampoTexto
                     type="email"
                     placeholder="E-mail"
@@ -58,10 +58,11 @@ const Login = () => {
                             Text="Fazer Cadastro"
                         />
                     </Link>
+
                 </div>
             </div>
             <div className={styles.login__banner}>
-               <img src={banner} alt="banner da pagina de login" />
+                <img src={banner} alt="banner da pagina de login" />
             </div>
         </section>
     )

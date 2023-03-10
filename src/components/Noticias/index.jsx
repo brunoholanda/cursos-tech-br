@@ -18,7 +18,7 @@ export default function Noticias() {
     }
 
     return (
-        <section className={styles.noticias} scroll-page id="noticias">
+        <section className={styles.noticias} scroll-page={true.toString()} id="noticias">
             <h1>Notícias Recentes</h1>
             <div className={styles.noticias__conteudo}>
                     <button onClick={handleLftClick}></button>

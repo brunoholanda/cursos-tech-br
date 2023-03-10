@@ -41,33 +41,32 @@
         }
     }
 }
-    
-    
-    @media screen and (max-width: 768px) {
-        .cabecalho {
 
-            padding: 1em;
 
-            &__logo {
-                img {
-                    width: 120px;
-                }
-            }
-    
-            &__links {
-                display: none;
-            }
+@media screen and (max-width: 768px) {
+    .cabecalho {
 
-            &__botao {
+        padding: 1em;
 
-                button {
-                    width: 100px;
-                    height: 30px;
-                    font-size: 20px;
-                    border-radius: 6px;
-                }
+        &__logo {
+            img {
+                width: 120px;
             }
         }
 
-        
+        &__links {
+            display: none;
+        }
+
+        &__botao {
+
+            button {
+                width: 100px;
+                height: 30px;
+                font-size: 20px;
+                border-radius: 6px;
+            }
+        }
     }
+
+}

@@ -9,7 +9,7 @@ export default function Cards({ itens }) {
       <ul className={styles.card__cards}>
         {itens.map((item) => {
           return (
-            <Link to={`/estado/${item.id}`}>
+            <Link to={`/estado/${item.id}`} key={item.id}>
               <li key={item.id} className={styles.card__card}>
                 <div className={styles.card__imagem}>
                   <img src={item.imagem} alt={item.estado} />

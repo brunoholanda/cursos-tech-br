@@ -75,15 +75,13 @@
             flex-direction: column;
             flex-wrap: wrap;
             
+            
           }
         
           &__card {
-
+          
             width: 280px;
-
-        
-    
-            
+                
             img {
                 width: 130px;
                 height: 90px;
@@ -102,9 +100,6 @@
             
             }
                  
-            &:hover {
-            display: none;
-            }
         }
         
         &__avaliacao {
